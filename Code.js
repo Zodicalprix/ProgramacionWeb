@@ -102,7 +102,7 @@ const impares = [];
     for (let i = 0; i < numeros.length; i++) {
       const numeroAleatorio = Math.floor(Math.random() * 10) + 1;
       const resultado = numeros[i] * numeroAleatorio;
-/*       alert(`${numeros[i]} x ${numeroAleatorio} = ${resultado}`); */
+      alert(`${numeros[i]} x ${numeroAleatorio} = ${resultado}`);
     
       if (resultado % 2 === 0) {
         pares.push(resultado);
